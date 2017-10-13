@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Kondisi jika username dan password benar maka akan menampilkan pesan text toast
         //Login sukses dan masuk ke activity 2
-        if ((text1.contains("Username"))&&((text2.contains("Password")))) {
+        if ((text1.contains("Arif"))&&((text2.contains("Arif")))) {
             Toast.makeText(this, "Login Sukses", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(MainActivity.this, SecondActivity.class);
             startActivity(intent);
